@@ -1,0 +1,287 @@
+! Title: zh Content Farms List
+! Redirect: https://gist.github.com/adrianiainlam/3a1d6376e2481a641b78f257d9d8f866/raw/zh-content-farms-list.txt
+! Version: 20170426
+! Expires: 3 days
+!
+! Bug reports, additions, questions, comments: Please leave a comment at
+! <https://gist.github.com/adrianiainlam/3a1d6376e2481a641b78f257d9d8f866>
+! or email <adrianiainlam@gmail.com>.
+!
+! zh Content Farms List - A uBlock Origin filter consisting of
+!                         content farms and other fake news sites
+!                         with contents mainly in the zh locale
+! Ported from `ihatecontentfarms' by Ben Lau [1]
+! Copyright (c) 2017 Adrian I Lam <adrianiainlam@gmail.com>,
+!                    Ben Lau <xbenlau@gmail.com> (Original author),
+!                    ihatecontentfarms contributors [2]
+!
+! This program is free software: you can redistribute it and/or modify
+! it under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version.
+!
+! This program is distributed in the hope that it will be useful,
+! but WITHOUT ANY WARRANTY; without even the implied warranty of
+! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+! GNU General Public License for more details.
+!
+! For a copy of the GNU General Public License, see
+! <http://www.gnu.org/licenses/>.
+!
+! [1]: <https://github.com/benlau/ihatecontentfarms>
+! [2]: <https://github.com/benlau/ihatecontentfarms/graphs/contributors>
+
+!! URL shorteners typically used only by content farms
+!! (potential false positive - please report)
+||fungovdo.com
+||iso2.cc
+
+!! Actual content farm domains
+||163nvren.com
+||360doc.com
+||7jiu.com.hk
+||8im.me
+||8md.me
+||95lady.com
+||a-gui.com
+||aboutfighter.com
+||apple01.net
+||appnews.fanswong.com
+||asia01.club
+||axn2000.blogspot.*
+||babymaycry.com
+||baiyongqin.cc
+||bananadaily.net
+||bazzfly.com
+||beauties.life
+||beefun01.com
+||biginfo4u.com
+||bignews01.com
+||bomb01.com
+||bottle01.tw
+||bubuko.com
+||bucktop.com
+||bunnygo.net
+||buzz01.com
+||buzzbooklet.com
+||buzzhand.com
+||buzzhand.net
+||buzzjoker.com
+||buzzlife.com.tw
+||buzznews.news
+||cacanews.com
+||ccolorsky.blogspot.*
+||changepw.com
+||chaxf.com
+||chunew.com
+||cibeiwen.com
+||circle01.com
+||classicofloves.com
+||clickme.net
+||cmoney.tw
+||coco01.net
+||cocomy.net
+||cocotw.net
+||contw.com
+||cpzoushi.cn
+||dailyfun.cc
+||dailyhearter.net
+||daleba.net
+||daliulian.net
+||dayhot.news
+||dayspot.net
+||design-fabrica.com
+||discoss.com
+||dnbcw.info
+||dongqiuxiang.net
+||dsy39.com
+||duckhk.com
+||dungwa.com
+||e04.tv
+||eazon.com
+||enews.com.tw
+||eryunews.com
+||ezgoe.com
+||eznewlife.com
+||ezp9.com
+||ezvivi.com
+||ezvivi2.com
+||faminereports.blogspot.*
+||fanli7.net
+||fashionwaltz.com
+||friends.hk
+||fullyu.com
+||fun01.cc
+||fun01.net
+||funnies.online
+||funssy.com
+||funvdo01.com
+||getez.info
+||getfunfun.com
+||getjoyz.com
+||gigacircle.com
+||gigcasa.com
+||gjoyz.co
+||gjoyz.com
+||gmter.com
+||go-vdo.hk
+||guowenme.cc
+||guudo.cn
+||handread.cc
+||haolookr.com
+||happies.news
+||happy123.org
+||happyeverydaymovie.com
+||healthalover.com
+||hehuancui.com
+||hkappleweekly.com
+||hktimes.org
+||hkwall.com
+||honey99.net
+||hothk.com
+||hotnews.hk
+||hottimes.org
+||housekook.com
+||how01.com
+||howfunny.org
+||hssszn.com
+||icovideos.com
+||ideapit.com
+||ifuun.com
+||ihot.news
+||ilife97.com
+||ilife99.com
+||imama.tw
+||immediates.net
+||interestingpo.com
+||ipetgroup.com
+||ireaded.com
+||ispot.news
+||izhentoo.cc
+||jimmyfans.com
+||juksy.com
+||justfenxiang.net
+||justhotnews.site
+||kan.world
+||kikinote.net
+||kknews.cc
+||knowing.asia
+||kuso01.tv
+||laughbombclub.com
+||letu.life
+||life.com.tw
+||life.cx
+||life.tw
+||lifelove01.com
+||line-share.tw
+||maheshbhusal.com.np
+||mama.tw
+||mamicode.com
+||mango01.com
+||mango02.com
+||maoanbo.net
+||marotify.com
+||media8.me
+||medialnk.com
+||meishuile.com
+||menclub.co
+||metalballs.co
+||mili010.com
+||mili010.net
+||mimi186.com
+||momdata.blogspot.com
+||money83.com
+||moneyaaa.com
+||muratify.cc
+||myfbshare.net
+||myfunnews.com
+||mytimes.org
+||news01.cc
+||newstube01.tv
+||novelfeed.com
+||nowlooker.com
+||ohwonews.com
+||onefunnyjoke.com
+||onnewlife.com
+||orange01.org
+||ourstarsky.com
+||pcasg.com
+||peopleinsider.blogspot.*
+||peopleinsider.net
+||pet01.tv
+||picallies.com
+||pixpo.net
+||play01.cc
+||plays01.com
+||please.news
+||popdaily.com.tw
+||post01.com
+||post01.net
+||programgo.com
+||ptt01.cc
+||pttbook.com
+||push01.com
+||push01.net
+||qianqu.cc
+||qilook.com
+||qiqu.news
+||quiz321.com
+||qzapp.net
+||read01.com
+||readhouse.net
+||share001.com
+||share001.net
+||share001.org
+||share01.cc
+||share2fb.net
+||shareba.com
+||shareonion.com
+||sharetify.com
+||sk2zone.com
+||spicemami.com
+||sport01.tv
+||superfun-e.com
+||teepr.com
+||thefundaily.com
+||thegreatdaily.com
+||thegreendaily.net
+||thehealthdaily.org
+||thehealther.com
+||tipelse.com
+||toments.com
+||topnews8.com
+||towngag.com.hk
+||ttshow.tw
+||tw.anyelse.com
+||tw.jdkartsports.nl
+||twgreatdaily.com
+||twtimes.org
+||vdoobv.com
+||video-lab.net
+||viralane.com
+||watchinese.com
+||whatfunny.org
+||wholehk.com
+||whyhow.online
+||womanaaa.com
+||wonder4.co
+||xianso.com
+||xibao.tw
+||xuxianghui.cc
+||xuxinfang.xyz
+||yibihan.net
+||ymiit.com
+||youngboysgirls.com
+||yourbabb.com
+||yourfacts.club
+||yourhope.info
+||youthwant.com
+||youthwant.com.tw
+||youthwant.ufc.com.tw
+||youthwant.xnnow.com
+||yubhar.com
+||zhentoo.com
+||zhentoo.net
+||zhoucuimei.cc
+||zhulinlin.net
+||zuopy.com
