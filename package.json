@@ -1,0 +1,23 @@
+{
+  "name": "content-farm-list",
+  "version": "1.0.0",
+  "description": "List all content farm, and provide a json for fetch.",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildskyf/content-farm-list.git"
+  },
+  "keywords": [
+    "content",
+    "farm"
+  ],
+  "author": "wildskyf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildskyf/content-farm-list/issues"
+  },
+  "homepage": "https://github.com/wildskyf/content-farm-list#readme"
+}
