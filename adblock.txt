@@ -1,17 +1,18 @@
 ! Title: zh Content Farms List
-! Redirect: https://gist.github.com/adrianiainlam/3a1d6376e2481a641b78f257d9d8f866/raw/zh-content-farms-list.txt
-! Version: 20170426
+! Redirect: https://raw.githubusercontent.com/wildskyf/content-farm-list/master/adblock.txt
+! Version: 2017-5-20
 ! Expires: 3 days
 !
 ! Bug reports, additions, questions, comments: Please leave a comment at
-! <https://gist.github.com/adrianiainlam/3a1d6376e2481a641b78f257d9d8f866>
-! or email <adrianiainlam@gmail.com>.
+! <https://github.com/wildskyf/content-farm-list/issues>
+! or email <poppin.wildsky+cf@gmail.com>.
 !
 ! zh Content Farms List - A uBlock Origin filter consisting of
 !                         content farms and other fake news sites
 !                         with contents mainly in the zh locale
-! Ported from `ihatecontentfarms' by Ben Lau [1]
-! Copyright (c) 2017 Adrian I Lam <adrianiainlam@gmail.com>,
+! Ported from 'ihatecontentfarms' by Ben Lau [1]
+! Copyright (c) 2017 Wildsky Fann <poppin.wildsky@gmail.com> (Updater dev)
+!                    Adrian I Lam <adrianiainlam@gmail.com> (list v1 porter),
 !                    Ben Lau <xbenlau@gmail.com> (Original author),
 !                    ihatecontentfarms contributors [2]
 !
@@ -29,36 +30,36 @@
 ! <http://www.gnu.org/licenses/>.
 !
 ! [1]: <https://github.com/benlau/ihatecontentfarms>
-! [2]: <https://github.com/benlau/ihatecontentfarms/graphs/contributors>
-
-!! URL shorteners typically used only by content farms
-!! (potential false positive - please report)
-||fungovdo.com
-||iso2.cc
-
-!! Actual content farm domains
-||163nvren.com
+! [2]: <https://github.com/benlau/ihatecontentfarms/graphs/contributors>||163nvren.com
 ||360doc.com
 ||7jiu.com.hk
 ||8im.me
 ||8md.me
-||95lady.com
 ||a-gui.com
 ||aboutfighter.com
+||allexperts.com
+||answerbag.com
+||answers.com
+||answers.yahoo.com
 ||apple01.net
 ||appnews.fanswong.com
+||articlesbase.com
 ||asia01.club
+||ask.com
+||associatedcontent.com
 ||axn2000.blogspot.*
 ||babymaycry.com
 ||baiyongqin.cc
 ||bananadaily.net
-||bazzfly.com
+||bc3ts.com
 ||beauties.life
 ||beefun01.com
 ||biginfo4u.com
 ||bignews01.com
+||bizrate.com
 ||bomb01.com
 ||bottle01.tw
+||brothersoft.com
 ||bubuko.com
 ||bucktop.com
 ||bunnygo.net
@@ -67,10 +68,13 @@
 ||buzzhand.com
 ||buzzhand.net
 ||buzzjoker.com
+||buzzle.com
 ||buzzlife.com.tw
 ||buzznews.news
+||bytes.com
 ||cacanews.com
-||ccolorsky.blogspot.*
+||ccolorsky.blogspot.com
+||chacha.com
 ||changepw.com
 ||chaxf.com
 ||chunew.com
@@ -83,34 +87,39 @@
 ||cocomy.net
 ||cocotw.net
 ||contw.com
-||cpzoushi.cn
 ||dailyfun.cc
 ||dailyhearter.net
 ||daleba.net
 ||daliulian.net
 ||dayhot.news
 ||dayspot.net
-||design-fabrica.com
 ||discoss.com
 ||dnbcw.info
 ||dongqiuxiang.net
 ||dsy39.com
-||duckhk.com
 ||dungwa.com
-||e04.tv
 ||eazon.com
+||efreedom.com
+||ehow.com
 ||enews.com.tw
 ||eryunews.com
+||essortment.com
+||examiner.com
+||experts-exchange.com
+||expertvillage.com
 ||ezgoe.com
+||ezinearticles.com
 ||eznewlife.com
 ||ezp9.com
 ||ezvivi.com
 ||ezvivi2.com
+||f.duckhk.com
 ||faminereports.blogspot.*
 ||fanli7.net
-||fashionwaltz.com
-||friends.hk
+||findarticles.com
+||fixya.com
 ||fullyu.com
+||fun.youngboysgirls.com
 ||fun01.cc
 ||fun01.net
 ||funnies.online
@@ -123,17 +132,21 @@
 ||gigcasa.com
 ||gjoyz.co
 ||gjoyz.com
-||gmter.com
-||go-vdo.hk
+||goodlifeyou.bumbnews.com
+||gooread.com
 ||guowenme.cc
 ||guudo.cn
+||gyfunnews.com
 ||handread.cc
 ||haolookr.com
 ||happies.news
-||happy123.org
+||happiness.beauties.life
 ||happyeverydaymovie.com
+||happytify.cc
 ||healthalover.com
 ||hehuancui.com
+||helium.com
+||hk.maheshbhusal.com.np
 ||hkappleweekly.com
 ||hktimes.org
 ||hkwall.com
@@ -145,6 +158,7 @@
 ||how01.com
 ||howfunny.org
 ||hssszn.com
+||hubpages.com
 ||icovideos.com
 ||ideapit.com
 ||ifuun.com
@@ -153,6 +167,7 @@
 ||ilife99.com
 ||imama.tw
 ||immediates.net
+||infobarrel.com
 ||interestingpo.com
 ||ipetgroup.com
 ||ireaded.com
@@ -165,37 +180,43 @@
 ||kan.world
 ||kikinote.net
 ||kknews.cc
-||knowing.asia
 ||kuso01.tv
 ||laughbombclub.com
 ||letu.life
 ||life.com.tw
 ||life.cx
 ||life.tw
-||lifelove01.com
+||likea.ezvivi.com
 ||line-share.tw
-||maheshbhusal.com.np
+||livestrong.com
+||lookforward.cc
+||lovelifes.net
+||mahalo.com
+||mail-archive.com
 ||mama.tw
 ||mamicode.com
 ||mango01.com
-||mango02.com
 ||maoanbo.net
-||marotify.com
 ||media8.me
 ||medialnk.com
 ||meishuile.com
 ||menclub.co
-||metalballs.co
+||metalballs.com
 ||mili010.com
 ||mili010.net
 ||mimi186.com
-||momdata.blogspot.com
+||ml.design-fabrica.com
+||ml.yubhar.com
 ||money83.com
 ||moneyaaa.com
+||moretify.com
 ||muratify.cc
 ||myfbshare.net
 ||myfunnews.com
 ||mytimes.org
+||news.95lady.com
+||news.knowing.asia
+||news.qzapp.net
 ||news01.cc
 ||newstube01.tv
 ||novelfeed.com
@@ -208,10 +229,8 @@
 ||pcasg.com
 ||peopleinsider.blogspot.*
 ||peopleinsider.net
-||pet01.tv
 ||picallies.com
 ||pixpo.net
-||play01.cc
 ||plays01.com
 ||please.news
 ||popdaily.com.tw
@@ -225,21 +244,24 @@
 ||qianqu.cc
 ||qilook.com
 ||qiqu.news
+||questionhub.com
 ||quiz321.com
 ||qzapp.net
 ||read01.com
 ||readhouse.net
+||reg.youthwant.com.tw
+||share.youthwant.com.tw
 ||share001.com
 ||share001.net
-||share001.org
-||share01.cc
 ||share2fb.net
 ||shareba.com
 ||shareonion.com
 ||sharetify.com
 ||sk2zone.com
 ||spicemami.com
-||sport01.tv
+||squidoo.com
+||story.bazzfly.com
+||suite101.com
 ||superfun-e.com
 ||teepr.com
 ||thefundaily.com
@@ -250,12 +272,12 @@
 ||tipelse.com
 ||toments.com
 ||topnews8.com
-||towngag.com.hk
 ||ttshow.tw
 ||tw.anyelse.com
-||tw.jdkartsports.nl
+||twenga.com
 ||twgreatdaily.com
 ||twtimes.org
+||uuread.cc
 ||vdoobv.com
 ||video-lab.net
 ||viralane.com
@@ -263,15 +285,19 @@
 ||whatfunny.org
 ||wholehk.com
 ||whyhow.online
+||wisegeek.com
 ||womanaaa.com
 ||wonder4.co
+||wonderhowto.com
+||ww.happy123.org
+||ww.share001.org
 ||xianso.com
 ||xibao.tw
+||xomba.com
 ||xuxianghui.cc
 ||xuxinfang.xyz
 ||yibihan.net
 ||ymiit.com
-||youngboysgirls.com
 ||yourbabb.com
 ||yourfacts.club
 ||yourhope.info
@@ -279,9 +305,8 @@
 ||youthwant.com.tw
 ||youthwant.ufc.com.tw
 ||youthwant.xnnow.com
-||yubhar.com
 ||zhentoo.com
+||zengtoo.com
 ||zhentoo.net
 ||zhoucuimei.cc
 ||zhulinlin.net
-||zuopy.com
