@@ -7,7 +7,7 @@ fs.readFile('./src.txt', 'utf8', (err, content) => {
 
 
   // json
-  fs.writeFile('list.json', JSON.stringify(sites), { flag: 'w' }, function(err) {
+  fs.writeFile('data/list.json', JSON.stringify(sites), { flag: 'w' }, function(err) {
     if (err) throw err;
     console.log('json saved');
   });
@@ -52,7 +52,7 @@ fs.readFile('./src.txt', 'utf8', (err, content) => {
     adblock_header += `||${site}\n`;
   });
 
-  fs.writeFile('adblock.txt', adblock_header, { flag: 'w' }, function(err) {
+  fs.writeFile('data/adblock.txt', adblock_header, { flag: 'w' }, function(err) {
     if (err) throw err;
     console.log('adblock saved');
   });
