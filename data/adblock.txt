@@ -1,6 +1,6 @@
 ! Title: zh Content Farms List
 ! Redirect: https://raw.githubusercontent.com/wildskyf/content-farm-list/master/adblock.txt
-! Version: 2017-6-9
+! Version: 2017-6-26
 ! Expires: 3 days
 !
 ! Bug reports, additions, questions, comments: Please leave a comment at
@@ -263,6 +263,7 @@
 ||story.bazzfly.com
 ||suite101.com
 ||superfun-e.com
+||taiwanfansclub.com
 ||teepr.com
 ||thefundaily.com
 ||thegreatdaily.com
@@ -310,4 +311,3 @@
 ||zhentoo.net
 ||zhoucuimei.cc
 ||zhulinlin.net
-||taiwanfansclub.com

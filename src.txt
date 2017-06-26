@@ -231,6 +231,7 @@ squidoo.com
 story.bazzfly.com
 suite101.com
 superfun-e.com
+taiwanfansclub.com
 teepr.com
 thefundaily.com
 thegreatdaily.com
@@ -278,4 +279,3 @@ zengtoo.com
 zhentoo.net
 zhoucuimei.cc
 zhulinlin.net
-taiwanfansclub.com
