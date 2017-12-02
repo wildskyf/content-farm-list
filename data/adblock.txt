@@ -1,6 +1,6 @@
 ! Title: zh Content Farms List
 ! Redirect: https://raw.githubusercontent.com/wildskyf/content-farm-list/master/adblock.txt
-! Version: 10/22/2017
+! Version: 12/2/2017
 ! Expires: 3 days
 !
 ! Bug reports, additions, questions, comments: Please leave a comment at
@@ -146,6 +146,7 @@
 ||happiness.beauties.life
 ||happyeverydaymovie.com
 ||happytify.cc
+||happytifywin.com
 ||healthalover.com
 ||hehuancui.com
 ||helium.com
