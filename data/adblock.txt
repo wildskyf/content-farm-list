@@ -1,6 +1,6 @@
 ! Title: zh Content Farms List
 ! Redirect: https://raw.githubusercontent.com/wildskyf/content-farm-list/master/adblock.txt
-! Version: 12/2/2017
+! Version: 2018-5-7
 ! Expires: 3 days
 !
 ! Bug reports, additions, questions, comments: Please leave a comment at
@@ -164,6 +164,7 @@
 ||hssszn.com
 ||hubpages.com
 ||icovideos.com
+||icomovie.com.hk
 ||ideapit.com
 ||ifuun.com
 ||ihot.news
