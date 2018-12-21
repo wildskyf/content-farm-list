@@ -56,5 +56,43 @@ fs.readFile('./src.txt', 'utf8', (err, content) => {
     if (err) throw err;
     console.log('adblock saved');
   });
-
+  
+  // hosts-based blocker
+  var hosts = `\
+// Host-based Zh Content Farms Blocking List
+// Bug reports, additions, questions, comments: Please leave a comment at
+// <https://github.com/wildskyf/content-farm-list/issues>
+//
+// zh Content Farms List - A uBlock Origin filter consisting of
+//                         content farms and other fake news sites
+//                         with contents mainly in the zh locale
+// Ported from 'ihatecontentfarms' by Ben Lau [1]
+// Copyright (c) 2018 BrLi <brli@chakralinux.org>
+//                    Wildsky Fann <poppin.wildsky@gmail.com> (Updater dev)
+//                    Adrian I Lam <adrianiainlam@gmail.com> (list v1 porter),
+//                    Ben Lau <xbenlau@gmail.com> (Original author),
+//                    ihatecontentfarms contributors [2]
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// For a copy of the GNU General Public License, see
+// <http://www.gnu.org/licenses/>.
+//
+// [1]: <https://github.com/benlau/ihatecontentfarms>
+// [2]: <https://github.com/benlau/ihatecontentfarms/graphs/contributors> \n\n`;
+  sites.forEach(site => {
+      hosts += `0.0.0.0 ${site}\n`;
+  });
+  
+  fs.writeFile('data/hosts.txt', hosts, { flag: 'w' }, function(err) {
+    if (err) throw err;
+    console.log('host file saved');
+  });
 });
